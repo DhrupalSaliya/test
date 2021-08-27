@@ -1,0 +1,308 @@
+
+header {
+  height           : 320px;
+  width            : 100%;
+ background-image: linear-gradient(rgba(rgba(0, 0, 0, 0.829), .5), rgba(rgb(22, 1, 4), .5)), url(img/background.jpg);
+  background-size  : cover;
+  background-repeat: no-repeat;
+  position         : absolute;
+  left             : 0;
+
+  .fa{
+   position: absolute;
+   top: 30px;
+   right: 120px;
+  }
+}
+.fristline {
+  display        : flex;
+  justify-content: space-between;
+
+  .fristlineRight {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    width          : 300px;
+    position       : absolute;
+    right          : 60px;
+  }
+
+  .sks {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+    color      : rgb(230, 219, 219);
+    margin-left: 40px;
+  }
+
+  .needhelp {
+    font-family     : Verdana, Geneva, Tahoma, sans-serif;
+    font-weight     : 50;
+    color           : rgba(250, 242, 242, 0.904);
+    background-color: rgb(15, 135, 151);
+    border          : 2px solid rgb(15, 135, 151);
+    border-radius   : 6px;
+    padding         : 5px;
+  }
+
+  .fristimg {
+    height: 50px;
+    width : 50px;
+
+    .fristlineimg {
+      height       : 100%;
+      width        : 100%;
+      float        : right;
+      border-radius: 10px;
+    }
+  }
+
+  .dot {
+    background-color: yellow;
+    border          : 1px solid white;
+    border-radius   : 50%;
+    height          : 4.5px;
+    width           : 4.5px;
+    transform: translate(3px,1px);
+  }
+}
+
+   .girlintro{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     color: rgb(243, 243, 245);
+     font-weight: 400;
+     margin-top: -2px;
+   }
+
+  .girllead{
+    height: 260px;
+    margin-left: 40px;
+    margin-top: 65px;
+    border-radius: 10px;
+  }
+
+.profilecomplet{
+  display: flex;
+  float: right;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 60px;
+  margin-top: -260px;
+  background-image: linear-gradient(rgba(rgba(252, 245, 245, 0.582), .5), rgba(rgb(255, 253, 253), .5));
+  padding: 5px;
+  height: 140px;
+  width: 320px;
+  border-radius: 8px;
+
+  .circle{
+    width: 53px;
+    border: 5px solid coral;
+    border-radius: 50%;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+
+    .circle75{
+      background-image: linear-gradient(rgba(rgb(138, 129, 129), .5), rgba(rgb(146, 138, 138), .5));
+      width: 19px;
+      border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    }
+  }
+}
+.navlink{
+  padding-top: 320px;
+  display: flex;
+  float: left;
+  padding-left: 300px;
+  
+  li{
+    display: inline;
+    font-size: small;
+    a {
+      text-decoration: none;
+      color: rgb(173, 166, 166);
+      padding: 10px;
+      font-weight: 600;
+    }
+
+  }
+}
+
+.newclaims {
+  padding-top: 400px;
+  
+  .t3{
+    font-size: 70px;
+    float: left;
+    margin-left: 340px;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 250);
+  box-shadow: 18px 18px rgb(252, 243, 243);
+  }
+}
+
+.t3img ,.t23img , .tt3img{
+  position: absolute;
+ bottom:  200px;
+ top: 470px;
+ 
+}
+.t3img{
+  left: -480px;
+}
+
+.NCimg , .NCimg2 , .NCimg3{
+  border-radius: 500px;
+  margin-right: -20px;
+  width: 35px;
+  border: 2px solid white;
+}
+.pluse32 , .pluse2_32 , .pluse3_32{
+  background-color: rgb(159, 167, 172);
+  width: 16px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 60%;
+  color: rgb(249, 255, 255);
+  float: right;
+  position: relative;
+  right: 7px;
+  top: -16px;
+  left: -2;
+  opacity: 0.83;
+}
+.h3 , .h_23 , .ht3{
+  letter-spacing: 2px;
+  margin-bottom: 0%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(173, 166, 166);
+}
+
+.h3{
+  margin-left: 419px;
+  margin-top: 30px;
+}
+.NewMEMBER {
+  padding-top: 70px;
+  
+  .SS{
+    font-size: 70px;
+    float: left;
+    margin-left: 200px;
+    margin-top: -90px;
+    background-color: rgb(255, 255, 250);
+  box-shadow: 18px 18px rgb(252, 243, 243);
+  }
+}
+.t23img{
+  left: 700px;
+ }
+.h_23{
+  margin-left: 700px;
+  margin-top: -88px;
+}
+
+
+.TOTALCLAIMS{
+  padding-top: 10px;
+
+  .tt3{
+    font-size: 70px;
+    float: left;
+    margin-left: 210px;
+    margin-top: -90px;
+    background-color: rgb(255, 255, 250);
+  box-shadow: 18px 18px rgb(252, 243, 243);
+  }
+}
+.tt3img{
+  left: 1012px;
+}
+.ht3{
+  margin-left: 1011px;
+  margin-top: -30px;
+}
+.threeGirls{
+  display: flex;
+  flex-direction: column;
+}
+.fristGirl , .SECGirl ,.ThrGirl{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: rgb(173, 166, 166);
+  font-weight: 400;
+  margin-top: -2px;
+}
+
+.fristGirlimg , .SECGirlimg , .ThrGirlimg{
+ height: 140px;
+ width: 140px;
+ border-radius: 10px;
+}
+
+.fristGirlimg{
+  margin-left: -659px;
+  margin-top: 95px;
+}
+.fristGirlDetail{
+margin-top: 77px;
+margin-left: -30px;
+}
+
+.SECGirlimg{
+ margin-left: -467px;
+ margin-top: 305px;
+}
+
+.SECGirlDetail{
+margin-top: 288px;
+margin-left: -30px;
+}
+
+.ThrGirlimg{
+ margin-left: -597px;
+ margin-top: 505px;
+}
+
+.ThrGirlDetail{
+margin-top: 488px;
+margin-left: -30px;
+}
+ .act{
+   margin-top: -578px;
+   margin-left: -69px;
+ }
+.fristPer{
+  margin-top: 26px;
+  margin-left: -111px;
+}
+.AboutMyFamily{
+transform: translate(-390%,-720px);
+box-shadow: 18px 18px rgb(252, 243, 243);
+}
+
+.Covered{
+  transform: translate(-390%,-720px);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  .twoimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+  }
+  .twoimgCover{
+    width: 50px;
+    border-radius: 50%;
+    padding: 9px;
+  }
+}
+
+.aboutME{
+  transform: translate(-390%,-680px);
+box-shadow: 18px 18px rgb(252, 243, 243);
+}
